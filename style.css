@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 5px solid black;
+    background-color: aqua;
+    padding: 20px;
+    user-select: none;
+    text-shadow: 0 0 10px rgb(255, 30, 0);
+    font-weight: 200;
+}
+.txt{
+    margin-left: 15px;
+}
